@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Skywreckers · Arcadvocado</title>
-<meta name="description" content="Skywreckers is an arcade dogfighting roguelike in development at Arcadvocado: fly an evil genius's last bot plane and keep his submarine afloat against the heroes.">
+<meta name="description" content="Skywreckers is an arcade dogfighting roguelike in development at Arcadvocado: fly the evil Dr. Malvex's last bot plane over an endless sunset sea, draft your firepower mid-run and keep his submarine afloat until the heroes' flagship falls.">
 <meta property="og:title" content="Skywreckers">
 <meta property="og:description" content="An arcade dogfighting roguelike, in development at Arcadvocado.">
-<meta property="og:image" content="https://arcadvocado.com/img/skywreckers/hangar.png">
+<meta property="og:image" content="https://arcadvocado.com/img/skywreckers/share.png">
 <meta property="og:url" content="https://arcadvocado.com/skywreckers/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../img/icon.png">
@@ -25,6 +25,7 @@
       <ul>
         <li><a href="../shatterbelt/">Shatterbelt</a></li>
         <li><a href="../skywreckers/" aria-current="page">Skywreckers</a></li>
+        <li><a href="#screens">Screenshots</a></li>
       </ul>
     </nav>
   </div>
@@ -40,31 +41,75 @@
     </div>
   </div>
 </div>
-
-<section id="story">
+<div class="game-intro">
   <div class="wrap">
-    <div class="section-title">
-      <h2>The villain lost. You didn't get the memo.</h2>
-      <p>Dr. Malvex's war is over and the heroes are hunting his last submarine across an endless sea. You are one of his bot planes, catapulted off the deck. Hold the heroes off until he can escape.</p>
+    <p class="lead">Be the bad guy's last plane. Loop, dive and burn through squadrons of shining heroes over an endless sunset sea, draft new weapons every time you level up, and keep your master's submarine afloat until their flagship falls out of the sky.</p>
+    <div class="btns">
+      <a class="btn btn-line" href="#screens">Screenshots</a>
     </div>
-    <div class="cast">
-      <figure><img class="px" src="../img/skywreckers/jet.png" width="96" height="40" alt="The bot jet" style="width:96px"><figcaption>You: a bot plane</figcaption></figure>
-      <figure><img class="px" src="../img/skywreckers/sub.png" width="336" height="108" alt="Dr. Malvex's submarine" style="width:min(336px,80vw)"><figcaption>The submarine you defend</figcaption></figure>
+  </div>
+</div>
+
+<section class="alt" id="story">
+  <div class="wrap">
+    <div class="story">
+      <figure class="portrait"><img class="px" src="../img/skywreckers/malvex.png" width="43" height="48" alt="Dr. Malvex, a grinning mad scientist with wild white hair and round goggles"></figure>
+      <div>
+        <span class="tag">The story</span>
+        <h2>The villain lost. You didn't get the memo.</h2>
+        <p>Dr. Malvex, evil genius, has lost his war. The heroes, all white paint, blue stripes and gold stars, are hunting his last submarine across the sea. You are one of his bot planes, flung off the sub's catapult with one job: hold them off until he can get away.</p>
+        <p>Malvex rides along, cheering every kill from his corner of the screen and panicking whenever his precious sub takes a hit.</p>
+      </div>
+    </div>
+    <div class="cast-strip">
+      <figure><img class="px" src="../img/skywreckers/jet.png" width="24" height="10" alt="The bot jet" style="width:96px"><figcaption>You: Malvex's bot plane</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/sub.png" width="112" height="36" alt="Dr. Malvex's submarine" style="width:336px"><figcaption>The sub you defend</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/airship.png" width="93" height="37" alt="A heroes' airship with a star on its envelope" style="width:279px"><figcaption>Airships drop bombs on the sub</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/carrier.png" width="128" height="31" alt="A heroes' aircraft carrier" style="width:384px"><figcaption>Carriers launch more fighters</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/liberator.png" width="136" height="72" alt="The Liberator, a huge armoured airship with a glowing core" style="width:408px"><figcaption>The Liberator, their flagship</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/paragon.png" width="63" height="31" alt="The Paragon, the heroes' champion jet" style="width:189px"><figcaption>The Paragon, their champion</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="alt" id="play">
+<section id="play">
   <div class="wrap">
     <div class="section-title">
       <span class="tag">How it plays</span>
       <h2>Thrust, turn, fire, survive</h2>
+      <p>Runs last 3 to 20 minutes. A fresh pilot goes down in about three. A veteran with a kitted-out hangar lasts to the Liberator and wins.</p>
     </div>
     <div class="features">
-      <div class="feature"><h3>Hands on the stick</h3><p>Flight is the game: inertia, thrust against glide, a stall at the ceiling and drag in the sea. Every crash should feel like your own fault.</p></div>
-      <div class="feature"><h3>Shoot or heal</h3><p>Your hull mends only while you hold your fire. Every second is a choice between damage and survival.</p></div>
-      <div class="feature"><h3>Draft your firepower</h3><p>Kills level you up mid-run: pick one of three upgrades, from sharper guns to boomerangs, buzzsaws, skulls, a singularity and a death ray.</p></div>
-      <div class="feature"><h3>Defend the base</h3><p>The sub is a second hull. Stray too far to chase kills and the heroes go for it. Last until the Liberator arrives, then win the final duel.</p></div>
+      <div class="feature"><h3>Hands on the stick</h3><p>Flight is the game: thrust against glide, momentum through every loop, an engine that stalls if you climb too high and a sea that drags you down. Every crash should feel like your own fault.</p></div>
+      <div class="feature"><h3>Shoot or heal</h3><p>Your hull mends only while you hold your fire, and twice as fast docked on the sub's deck. Every second is a choice between damage and survival.</p></div>
+      <div class="feature"><h3>Draft your firepower</h3><p>Kills level you up mid-run: pick one of three upgrades, from hot loads and seeker rounds to boomerang blades, a buzzsaw halo, cackling skulls, a singularity orb and a death ray.</p></div>
+      <div class="feature"><h3>Defend the base</h3><p>The sub is a second hull. Chase kills too far and the heroes go for it with bombs, shells and torpedoes. Lose the plane or lose the sub, and the run is over.</p></div>
+      <div class="feature"><h3>The sky never calms down</h3><p>Fighters, aces, gunboats, PT boats, gyro gunships, bombers, destroyers, airships and carriers join in as the threat climbs, with squadrons sweeping in and the heroes turning enraged.</p></div>
+      <div class="feature"><h3>Bring down the Liberator</h3><p>Hold out for fifteen minutes and the heroes' flagship arrives. Shoot it down, then face their champion, the Paragon, in a final duel to win the run.</p></div>
+    </div>
+    <ul class="facts">
+      <li>Chain kills inside two and a half seconds to build a combo up to x10</li>
+      <li>Ten gun upgrades and ten secondary weapons to draft, ranked up in the run</li>
+      <li>A hangar of armour, repairs and weapon unlocks, paid in the scrap every run earns</li>
+      <li>The whole screen in five colours, with eight palettes to earn and swap, from Burning Sky to Old Monitor</li>
+    </ul>
+  </div>
+</section>
+
+<section class="alt" id="screens">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="tag">Screenshots</span>
+      <h2>A look at the sky</h2>
+      <p>From the current build: work in progress.</p>
+    </div>
+    <div class="gallery">
+      <figure><img class="px" src="../img/skywreckers/shots/sunset.webp" width="640" height="360" loading="lazy" alt="The bot jet downs a fighter over the sunset sea"><figcaption>The first kill of a run</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/shots/squadrons.webp" width="640" height="360" loading="lazy" alt="Squadrons of hero fighters filling the sky with fire"><figcaption>Squadrons sweep in</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/shots/airship.webp" width="640" height="360" loading="lazy" alt="An airship arriving among dozens of fighters"><figcaption>An airship joins the fight</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/shots/bombardment.webp" width="640" height="360" loading="lazy" alt="Shells raining on the sea while the bot jet scores a kill"><figcaption>The sub under fire</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/shots/liberator.webp" width="640" height="360" loading="lazy" alt="A x10 combo while the Liberator battle rages"><figcaption>A x10 combo against the Liberator</figcaption></figure>
+      <figure><img class="px" src="../img/skywreckers/shots/endgame.webp" width="640" height="360" loading="lazy" alt="The Liberator's escorts and an airship in a sky full of shots"><figcaption>The final stretch</figcaption></figure>
     </div>
   </div>
 </section>
@@ -73,7 +118,7 @@
   <div class="wrap">
     <div class="section-title">
       <h2>Still on the workbench</h2>
-      <p>Skywreckers is early in development, with no store page yet. Meanwhile, Shatterbelt is coming soon to Steam.</p>
+      <p>Skywreckers is in development, with no store page yet. Meanwhile, Shatterbelt is coming soon to Steam.</p>
     </div>
     <div class="btns">
       <a class="btn btn-green" href="../shatterbelt/">See Shatterbelt</a>
@@ -84,7 +129,7 @@
 
 <footer>
   <img class="px" src="../img/icon.png" width="103" height="121" alt="">
-  © 2026 <a href="../">Arcadvocado</a> · <a href="../shatterbelt/">Shatterbelt</a>
+  © 2026 <a href="../">Arcadvocado</a> · <a href="../shatterbelt/">Shatterbelt</a> · <a href="../skywreckers/">Skywreckers</a>
 </footer>
 
 </body>
